@@ -1,0 +1,81 @@
+:root {
+    background-color: seashell;
+    color: black;
+}
+
+::selection {
+    background-color: lightblue;
+}
+
+code {
+    /* Monospace font stack is used for our code blocks to make it look more like code */
+    font-family: Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console',
+      'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono',
+      'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier,
+      monospace;
+  }
+
+.row {
+
+
+}
+
+.justify-center {
+
+}
+
+.card-column {
+
+}
+
+.code-card {
+
+}
+
+.code-card .card-header {
+
+}
+
+.code-card:hover,
+.code-card:hover .card-header {
+
+}
+
+.code-card .code-block {
+
+}
+
+.code-card pre {
+
+}
+
+.code-card pre:active {
+
+}
+
+/* using a mobile-first approach, use `min-width` values going from narrow -> wide for a responsive design */
+@media screen and (min-width: 768px) {
+    /* on tablets, set columns to only be 50% of the width and not grow */
+    .card-column {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  
+    /* select the last child to grow to full width if it has space to grow */
+    .card-column:last-child {
+      flex-grow: 1;
+    }
+  }
+  
+  /* media query for larger screens */
+  @media screen and (min-width: 992px) {
+    header {
+      width: 75%;
+    }
+  
+    .card-column {
+      flex: 0 0 33.333%;
+      max-width: 33.333%;
+    }
+  }
+  
