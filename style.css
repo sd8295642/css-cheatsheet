@@ -16,12 +16,13 @@ code {
   }
 
 .row {
-
-
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 .justify-center {
-
+  justify-content: center;
 }
 
 .card-column {
