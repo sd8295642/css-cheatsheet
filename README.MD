@@ -2,7 +2,7 @@ Description: A simple one page website that displays code snippets. The page has
 
 Github Repository: https://github.com/sd8295642/css-cheatsheet
 
-Github Pages Link: 
+Github Pages Link: https://sd8295642.github.io/css-cheatsheet/
 
 Demo Image: ![Code Snippet Website](image.png)
 
