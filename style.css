@@ -45,7 +45,7 @@ code {
 
 .code-card:hover,
 .code-card:hover .card-header {
-
+  box-shadow: inset 0px 0px 8px rgb(64, 49, 90);
 }
 
 .code-card .code-block {
