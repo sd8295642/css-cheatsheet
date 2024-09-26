@@ -49,6 +49,10 @@ code {
 }
 
 .code-card .code-block {
+  flex-grow: 1;
+}
+
+.code-card pre {
   display: flex;
   align-items: center;
 
@@ -58,12 +62,8 @@ code {
   border-radius: 8px;
 }
 
-.code-card pre {
-
-}
-
 .code-card pre:active {
-
+  user-select: all;
 }
 
 /* using a mobile-first approach, use `min-width` values going from narrow -> wide for a responsive design */
